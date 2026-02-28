@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspFrequencies 0.19.2\n"
-"POT-Creation-Date: 2025-09-13 03:32\n"
+"POT-Creation-Date: 2026-02-28 04:01\n"
 "PO-Revision-Date: 2025-11-06 02:51+0000\n"
 "Last-Translator: \"Cheng R. Zhu\" <zcr@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
@@ -499,6 +499,9 @@ msgid "Invalid counts: variable must contain only integer values."
 msgstr ""
 
 msgid "Invalid counts: less than 1 observation."
+msgstr ""
+
+msgid "Invalid counts: maximum value (10e7) exceeded."
 msgstr ""
 
 msgid "Confidence intervals are based on independent binomial distributions."

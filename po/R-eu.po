@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspFrequencies 0.15.0\n"
-"POT-Creation-Date: 2025-09-13 03:32\n"
+"POT-Creation-Date: 2026-02-28 04:01\n"
 "PO-Revision-Date: 2026-02-12 11:09+0000\n"
 "Last-Translator: Jose Ramon Rueda <joseramon.rueda@ehu.eus>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/jasp/"
@@ -86,7 +86,8 @@ msgid "P(%1$s | data) = %2$.3f"
 msgstr "P(%1$s | datuak) = %2$.3f"
 
 msgid "Cannot test the hypothesis that the test value is greater than 1."
-msgstr "Ezin da frogatu testaren balioa 1 baino handiagoa dela dioen hipotesia."
+msgstr ""
+"Ezin da frogatu testaren balioa 1 baino handiagoa dela dioen hipotesia."
 
 msgid "Cannot test the hypothesis that the test value is less than 0."
 msgstr ""
@@ -560,8 +561,12 @@ msgstr "Zenbaketa baliogabeak: aldagaiak balio osoak bakarrik izan behar ditu."
 msgid "Invalid counts: less than 1 observation."
 msgstr "Zenbaketa baliogabeak: behaketa 1 baino gutxiago."
 
+msgid "Invalid counts: maximum value (10e7) exceeded."
+msgstr ""
+
 msgid "Confidence intervals are based on independent binomial distributions."
-msgstr "Konfiantza-tarteak banaketa binomial independenteetan oinarritzen dira."
+msgstr ""
+"Konfiantza-tarteak banaketa binomial independenteetan oinarritzen dira."
 
 msgid "Could not compute confidence intervals."
 msgstr "Ezin izan dira konfiantza-tarteak kalkulatu."

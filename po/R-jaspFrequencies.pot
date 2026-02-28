@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspFrequencies 0.95.5\n"
-"POT-Creation-Date: 2025-11-15 03:38\n"
+"POT-Creation-Date: 2026-02-28 04:01\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -461,6 +461,9 @@ msgid "Invalid counts: variable must contain only integer values."
 msgstr ""
 
 msgid "Invalid counts: less than 1 observation."
+msgstr ""
+
+msgid "Invalid counts: maximum value (10e7) exceeded."
 msgstr ""
 
 msgid "Confidence intervals are based on independent binomial distributions."

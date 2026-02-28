@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspFrequencies 0.11.0\n"
-"POT-Creation-Date: 2025-09-13 03:32\n"
+"POT-Creation-Date: 2026-02-28 04:01\n"
 "PO-Revision-Date: 2024-07-02 17:09+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
@@ -516,6 +516,9 @@ msgstr "無効なカウント: 変数は整数だけでなければなりませ�
 
 msgid "Invalid counts: less than 1 observation."
 msgstr "無効な度数: 1 未満の観測値。"
+
+msgid "Invalid counts: maximum value (10e7) exceeded."
+msgstr ""
 
 msgid "Confidence intervals are based on independent binomial distributions."
 msgstr "信頼区間は、独立した二項分布に基づいています。"
