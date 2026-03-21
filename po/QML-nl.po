@@ -1275,3 +1275,28 @@ msgstr "Marge"
 msgctxt "ContingencyTablesBayesian|"
 msgid "Show totals"
 msgstr "Toon totalen"
+
+#, fuzzy
+msgctxt "BinomialTest|"
+msgid "Counts (optional)"
+msgstr "Aantallen (optioneel)"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Variables"
+msgstr "Variabelen"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Counts (optional)"
+msgstr "Aantallen (optioneel)"
+
+#, fuzzy
+msgctxt "ContingencyTables|"
+msgid "Counts (optional)"
+msgstr "Aantallen (optioneel)"
+
+#, fuzzy
+msgctxt "ContingencyTablesBayesian|"
+msgid "Counts (optional)"
+msgstr "Aantallen (optioneel)"

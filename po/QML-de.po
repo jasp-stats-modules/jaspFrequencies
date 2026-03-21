@@ -1281,3 +1281,28 @@ msgstr "Rand"
 msgctxt "ContingencyTablesBayesian|"
 msgid "Show totals"
 msgstr "Gesamte anzeigen"
+
+#, fuzzy
+msgctxt "BinomialTest|"
+msgid "Counts (optional)"
+msgstr "Häufigkeiten (optional)"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Variables"
+msgstr "Variablen"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Counts (optional)"
+msgstr "Häufigkeiten (optional)"
+
+#, fuzzy
+msgctxt "ContingencyTables|"
+msgid "Counts (optional)"
+msgstr "Häufigkeiten (optional)"
+
+#, fuzzy
+msgctxt "ContingencyTablesBayesian|"
+msgid "Counts (optional)"
+msgstr "Häufigkeiten (optional)"

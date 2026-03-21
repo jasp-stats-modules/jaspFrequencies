@@ -1301,3 +1301,28 @@ msgstr ""
 msgctxt "ContingencyTablesBayesian|"
 msgid "Show totals"
 msgstr ""
+
+#, fuzzy
+msgctxt "BinomialTest|"
+msgid "Counts (optional)"
+msgstr "Fréquences (optionnel)"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Variables"
+msgstr "Variables"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Counts (optional)"
+msgstr "Fréquences (optionnel)"
+
+#, fuzzy
+msgctxt "ContingencyTables|"
+msgid "Counts (optional)"
+msgstr "Fréquences (optionnel)"
+
+#, fuzzy
+msgctxt "ContingencyTablesBayesian|"
+msgid "Counts (optional)"
+msgstr "Fréquences (optionnel)"

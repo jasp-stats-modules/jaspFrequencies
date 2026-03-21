@@ -1293,3 +1293,28 @@ msgstr "列/行邊際分配"
 msgctxt "ContingencyTablesBayesian|"
 msgid "Show totals"
 msgstr "顯示列/行總計"
+
+#, fuzzy
+msgctxt "BinomialTest|"
+msgid "Counts (optional)"
+msgstr "計數(可選)"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Variables"
+msgstr "變項"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Counts (optional)"
+msgstr "計數(可選)"
+
+#, fuzzy
+msgctxt "ContingencyTables|"
+msgid "Counts (optional)"
+msgstr "計數(可選)"
+
+#, fuzzy
+msgctxt "ContingencyTablesBayesian|"
+msgid "Counts (optional)"
+msgstr "計數(可選)"

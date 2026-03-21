@@ -1272,3 +1272,23 @@ msgstr ""
 msgctxt "BinomialTestBayesian|"
 msgid "Descriptives plots"
 msgstr ""
+
+msgctxt "BinomialTest|"
+msgid "Counts (optional)"
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid "Variables"
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid "Counts (optional)"
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Counts (optional)"
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Counts (optional)"
+msgstr ""

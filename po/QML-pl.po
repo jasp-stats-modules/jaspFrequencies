@@ -1277,3 +1277,28 @@ msgstr "Margines"
 msgctxt "ContingencyTablesBayesian|"
 msgid "Show totals"
 msgstr "Pokaż sumy"
+
+#, fuzzy
+msgctxt "BinomialTest|"
+msgid "Counts (optional)"
+msgstr "Liczebności (opcjonalne)"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Variables"
+msgstr "Zmienne"
+
+#, fuzzy
+msgctxt "BinomialTestBayesian|"
+msgid "Counts (optional)"
+msgstr "Liczebności (opcjonalne)"
+
+#, fuzzy
+msgctxt "ContingencyTables|"
+msgid "Counts (optional)"
+msgstr "Liczebności (opcjonalne)"
+
+#, fuzzy
+msgctxt "ContingencyTablesBayesian|"
+msgid "Counts (optional)"
+msgstr "Liczebności (opcjonalne)"
