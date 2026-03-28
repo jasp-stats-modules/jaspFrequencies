@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspFrequencies 0.95.5\n"
 "POT-Creation-Date: 2026-02-28 04:01\n"
-"PO-Revision-Date: 2026-03-21 04:05+0000\n"
+"PO-Revision-Date: 2026-03-27 14:09+0000\n"
 "Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/jasp/"
 "jaspfrequencies-r/id/>\n"
@@ -17,13 +17,13 @@ msgid "Bayesian A/B Test"
 msgstr ""
 
 msgid "Models"
-msgstr ""
+msgstr "Model"
 
 msgid "P(M)"
-msgstr ""
+msgstr "P(M)"
 
 msgid "P(M|data)"
-msgstr ""
+msgstr "P(M|data)"
 
 msgid "A positive log odds ratio means that the success rate in Group 2 is higher than in Group 1."
 msgstr ""
@@ -41,7 +41,7 @@ msgid "Log odds ratio %s 0"
 msgstr ""
 
 msgid "Descriptives"
-msgstr ""
+msgstr "Deskriptif"
 
 msgid "Counts"
 msgstr ""
@@ -89,7 +89,7 @@ msgid "Binomial Test"
 msgstr ""
 
 msgid "Variable"
-msgstr ""
+msgstr "Variabel"
 
 msgid "Level"
 msgstr "Tingkat"
@@ -185,13 +185,13 @@ msgid "Z"
 msgstr "Z"
 
 msgid "VS-MPR%s"
-msgstr ""
+msgstr "VS-MPR%s"
 
 msgid "Value"
-msgstr ""
+msgstr "Nilai"
 
 msgid "df"
-msgstr ""
+msgstr "df"
 
 msgid "Expected count"
 msgstr ""
@@ -281,7 +281,7 @@ msgid "Count"
 msgstr ""
 
 msgid "N"
-msgstr ""
+msgstr "N"
 
 msgid "%s could not be calculated - At least one row or column contains all zeros"
 msgstr ""
@@ -386,7 +386,7 @@ msgid "Observed proportions"
 msgstr ""
 
 msgid "Sample size"
-msgstr ""
+msgstr "Ukuran sampel"
 
 msgid "Descriptives plot"
 msgstr ""
@@ -401,7 +401,7 @@ msgid "At least two models need to be specified."
 msgstr ""
 
 msgid "vs."
-msgstr ""
+msgstr "vs."
 
 msgid "Observed"
 msgstr ""
@@ -437,7 +437,7 @@ msgid "P(M|Data)"
 msgstr ""
 
 msgid "BF<sub>M</sub>"
-msgstr ""
+msgstr "BF<sub>M</sub>"
 
 msgid "Please double check if the factor level names in the 'Order Restricted Hypotheses' section match the factor levels in your data set."
 msgstr ""
@@ -476,7 +476,7 @@ msgid "Could not compute confidence intervals."
 msgstr ""
 
 msgid "Factor"
-msgstr ""
+msgstr "Faktor"
 
 msgid "Expected: %s"
 msgstr ""
@@ -488,7 +488,7 @@ msgid "%s%% Confidence Interval"
 msgstr ""
 
 msgid "Descriptives Plot"
-msgstr ""
+msgstr "Diagram Deskriptif"
 
 msgid "Bayesian Multinomial Test"
 msgstr ""
@@ -521,7 +521,7 @@ msgid "(Intercept)"
 msgstr ""
 
 msgid "ANOVA"
-msgstr ""
+msgstr "ANOVA"
 
 msgid "Deviance"
 msgstr ""
@@ -569,28 +569,28 @@ msgid "<em>Posterior model probability =</em>"
 msgstr ""
 
 msgid "Model Comparison"
-msgstr ""
+msgstr "Perbandingan Model"
 
 msgid "BF<sub>10</sub>"
-msgstr ""
+msgstr "BF<sub>10</sub>"
 
 msgid "BF<sub>01</sub>"
-msgstr ""
+msgstr "BF<sub>01</sub>"
 
 msgid "Log(BF<sub>10</sub>)"
-msgstr ""
+msgstr "Log(BF<sub>10</sub>)"
 
 msgid "Posterior Summary Statistics"
 msgstr ""
 
 msgid "P(incl|data)"
-msgstr ""
+msgstr "P(inkl|data)"
 
 msgid "Mean"
 msgstr "Rerata"
 
 msgid "Variance"
-msgstr ""
+msgstr "Varians"
 
 msgid "%s%% Credible intervals"
 msgstr ""
