@@ -117,14 +117,6 @@ msgid "Order"
 msgstr "Kolejność"
 
 msgctxt "ABTestBayesian|"
-msgid "Compare to best model"
-msgstr "Porównaj z najlepszym modelem"
-
-msgctxt "ABTestBayesian|"
-msgid "Compare to null model"
-msgstr "Porównaj z modelem zerowym"
-
-msgctxt "ABTestBayesian|"
 msgid "Advanced Options"
 msgstr "Opcje zaawansowane"
 
@@ -1162,10 +1154,6 @@ msgctxt "InformedMultinomialTestBayesian|"
 msgid "Maximum samples (bridgesampling)"
 msgstr "Maks. liczba próbek (prób. mostkowe)"
 
-msgctxt "ContingencyTables|"
-msgid "Standardized (adjusted Pearson)"
-msgstr "Standaryzowany (skorygowany Pearson)"
-
 msgctxt "InformedBinomialTestBayesian|"
 msgid "Sequential analysis plot"
 msgstr "Wykres analizy sekwencyjnej"
@@ -1302,3 +1290,851 @@ msgstr "Liczebności (opcjonalne)"
 msgctxt "ContingencyTablesBayesian|"
 msgid "Counts (optional)"
 msgstr "Liczebności (opcjonalne)"
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"The Bayesian A/B test allows one to monitor the evidence for the hypotheses "
+"that an intervention or treatment has either a positive effect, a negative "
+"effect or no effect."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"**Input**\n"
+"1. Each of the below elements needs to be an integer.\n"
+"2. A cumulative sequence of successes/trials can also be given as input."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Number of successes in group 1 (control condition)."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Number of trials in group 1 (control condition)."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Number of successes in group 2 (experimental condition)."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Number of trials in group 2 (experimental condition)."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"Specifies the mean for the normal prior on the test-relevant log odds ratio."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"Specifies the standard deviation for the normal prior on the test-relevant "
+"log odds ratio."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Displays the counts and proportion for each group."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Displays the prior and posterior density for the quantity of interest."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"Displays the development of posterior probabilities as the data come in. The "
+"probability wheels visualize prior and posterior probabilities of the "
+"hypotheses."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Plots parameter prior distributions."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Displays the prior sensitivity analysis."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Compares each model against the model selected"
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Compare to best model."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Compare to null model."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Specifies the prior probabilities for the four hypotheses."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"Specifies that the 'success' probability is identical (there is no effect)."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"Specifies that the 'success' probability in the experimental condition is "
+"higher than in the control condition."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"Specifies that the 'success' probability in the experimental condition is "
+"lower than in the control condition."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"Specifies that the 'success' probability differs between the control and "
+"experimental condition, but does not specify which one is higher."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid ""
+"Specifies the number of importance samples for obtaining log marginal "
+"likelihood for (H+) and (H-) and the number of posterior samples."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Specifies in how many discrete steps the μ step range is partitioned."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Specifies in how many discrete steps the σ step range is partitioned."
+msgstr ""
+
+msgctxt "ABTestBayesian|"
+msgid "Specifies the range of μ and σ values to consider."
+msgstr ""
+
+msgctxt "BinomialTest|"
+msgid ""
+"The binomial test allows the user to test whether a proportion of a "
+"dichotomous variable is equal to a test value (=presumed population value). "
+"The analysis returns a binomial test for each level of the dependent "
+"variable against all other levels, so it will also work for variables with "
+"more than two levels.\n"
+"## Assumptions\n"
+"- The variable should be a dichotomous scale.\n"
+"- Observations should be independent."
+msgstr ""
+
+msgctxt "BinomialTest|"
+msgid ""
+"The proportion of the variable under the null hypothesis - the baseline for "
+"comparison."
+msgstr ""
+
+msgctxt "BinomialTest|"
+msgid ""
+"Two-sided alternative hypothesis that the proportion is not equal to test "
+"value."
+msgstr ""
+
+msgctxt "BinomialTest|"
+msgid ""
+"One-sided alternative hypothesis that the proportion is larger than the test "
+"value."
+msgstr ""
+
+msgctxt "BinomialTest|"
+msgid ""
+"One-sided alternative hypothesis that the proportion is smaller than the "
+"test value."
+msgstr ""
+
+msgctxt "BinomialTest|"
+msgid ""
+"Coverage of the confidence intervals in percentages. The default value is 95."
+msgstr ""
+
+msgctxt "BinomialTest|"
+msgid ""
+"An upper bound on how much more likely a p-value is under the alternative "
+"hypothesis than under the null."
+msgstr ""
+
+msgctxt "BinomialTest|"
+msgid ""
+"Visualises the proportion and confidence interval of the two different "
+"values of your dichotomous variable."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"The Bayesian binomial test allows you to test whether a proportion of a "
+"dichotomous variable is equal to a test value (presumed population value). "
+"The analysis returns a binomial test for each level of the dependent "
+"variable against all other levels, so it will also work for variables with "
+"more than two levels.\n"
+"## Assumptions\n"
+"- The variable should be a dichotomous scale.\n"
+"- Observations should be independent."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"The proportion of the variable under the null hypothesis - the baseline for "
+"comparison."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"Two-sided alternative hypothesis that the proportion is not equal to test "
+"value."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"One-sided alternative hypothesis that the proportion is larger than the test "
+"value."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"One-sided alternative hypothesis that the proportion is smaller than the "
+"test value."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"Sets how much prior belief you have in success. When a = b = 1, this "
+"corresponds to a uniform prior distribution."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"Sets how much prior belief you have in failure. When a = b = 1, this "
+"corresponds to a uniform prior distribution."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"Displays the prior and posterior density of the population proportion under "
+"the alternative hypothesis."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"Shows the Bayes factor using the chosen prior, a probability wheel showing "
+"evidence for each hypothesis, and the median with 95% credible interval of "
+"the effect size."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"Displays the development of the Bayes factor as the data come in using the "
+"user-defined prior."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid "Display descriptives plots."
+msgstr ""
+
+msgctxt "BinomialTestBayesian|"
+msgid ""
+"Display central credible intervals. A credible interval shows the "
+"probability that the true effect size lies within certain values. The "
+"default credible interval is set at 95%."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"Contingency tables allow the user to identify how the frequencies of one "
+"categorical variable relate to another, helping to determine associations "
+"between variables."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Pearson’s chi-squared test for independence."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Applies Yates’ correction for continuity (for 2×2 tables)."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"Calculates the likelihood of the data under the alternative hypothesis "
+"divided by the likelihood of the data under the null hypothesis."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"An upper bound on how much more likely a p-value is under the alternative "
+"hypothesis than under the null."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Displays the odds ratio for 2×2 tables (ad/bc)."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Shows the log-transformed odds ratio."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"Coverage of the confidence intervals in percentages. The default value is 95."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"Specify the direction of the alternative hypothesis for Fisher's exact test."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"Two-sided alternative hypothesis that the proportion of group 1 is not equal "
+"to the proportion of group 2."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"One-sided alternative hypothesis that the proportion of group 1 is greater "
+"than the proportion of group 2."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"One-sided alternative hypothesis that the proportion of group 1 is less than "
+"the proportion of group 2."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Measure of association for nominal variables (based on χ²)."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"Effect size for nominal association; Phi (2×2), Cramer’s V (larger tables)."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Proportion reduction in error measure for nominal data."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Measure of ordinal association based on concordant/discordant pairs."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Ordinal correlation adjusting for ties."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Show actual counts from the data."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Show counts expected under the null hypothesis."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Computed by (observed - expected)."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"Standardized residuals; computed by (observed - expected) / √(expected)."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Adjusted Pearson"
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"Accounts for row/column totals; computed by (observed - expected) / "
+"√(expected × (1 - row marginal proportion) × (1 - column marginal "
+"proportion))."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Shows row-wise percentages."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Shows column-wise percentages."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Shows percentages of total."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Shows row and column totals."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Rows sorted in numerical order."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Rows sorted in reverse numerical order."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Columns sorted in numerical order."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Columns sorted in reverse numerical order."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Assumes independent Poisson-distributed counts for each cell."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Assumes all cell counts come from one multinomial distribution."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Each row is a separate multinomial distribution; row totals are fixed."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid ""
+"Each column is a separate multinomial distribution; column totals are fixed."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Assumes fixed row and column totals; suitable for exact tests."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid ""
+"Displays the odds ratio for 2×2 tables (ad/bc) with a credible interval."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Range where the true log odds ratio likely falls, given the data."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid ""
+"Two-sided alternative hypothesis that the proportion of group 1 is not equal "
+"to the proportion of group 2."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid ""
+"One-sided alternative hypothesis that the proportion of group 1 is greater "
+"than the proportion of group 2."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid ""
+"One-sided alternative hypothesis that the proportion of group 1 is less than "
+"the proportion of group 2."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Displays a graphical summary of the log odds ratio."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Controls how strongly the prior favours equal proportions."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Show actual counts from the data."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Show counts expected under the null hypothesis."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Shows row-wise percentages."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Shows column-wise percentages."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Shows percentages of total."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Shows row and column totals."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Rows sorted in numerical order."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Rows sorted in reverse numerical order."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Columns sorted in numerical order."
+msgstr ""
+
+msgctxt "ContingencyTablesBayesian|"
+msgid "Columns sorted in reverse numerical order."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid ""
+"Compares each model to an encompassing (broad) model that includes all "
+"others."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid "Compares each model to the null (equal proportions)."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid "Compares each model against a specific selected model."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid "Displays a summary table of observed counts or proportions."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid "Shows a plot of observed counts or proportions."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid "Displays the descriptives as counts."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid "Displays the descriptives as a proportion."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid "Displays the posterior distribution with credible intervals."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid ""
+"Displays the development of the Bayes factor or posterior probability as the "
+"data come in."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid "Displays the progression of Bayes factor values."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid "Displays the progression of the posterior probability."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid ""
+"Number of initial MCMC samples to discard before analysis begins, allowing "
+"the chain to stabilize."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid ""
+"Total number of MCMC samples used for estimating the posterior after burn-in."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid ""
+"Max number of samples used to estimate marginal likelihoods for computing "
+"Bayes factors."
+msgstr ""
+
+msgctxt "InformedBinomialTestBayesian|"
+msgid ""
+"Number of data points at which the Bayes factor is updated during sequential "
+"analysis."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid "Compares each model to the null (equal proportions)."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid ""
+"Compares each model to an encompassing (broad) model that includes all "
+"others."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid "Compares each model against a specific selected model."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid "Displays a summary table of observed counts or proportions."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid "Shows a plot of observed counts or proportions."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid "Displays the descriptives as counts."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid "Displays the descriptives as a proportion."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid "Displays the posterior distribution with credible intervals."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid ""
+"Displays the development of the Bayes factor or posterior probability as the "
+"data come in."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid "Displays the progression of Bayes factor values."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid "Displays the progression of the posterior probability."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid ""
+"Number of initial MCMC samples to discard before analysis begins, allowing "
+"the chain to stabilize."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid ""
+"Total number of MCMC samples used for estimating the posterior after burn-in."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid ""
+"Max number of samples used to estimate marginal likelihoods for computing "
+"Bayes factors."
+msgstr ""
+
+msgctxt "InformedMultinomialTestBayesian|"
+msgid ""
+"Number of data points at which the Bayes factor is updated during sequential "
+"analysis."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid ""
+"The multinomial test allows the user to test whether an observed "
+"distribution of cell counts corresponds to an expected distribution.\n"
+"## Assumptions\n"
+"- The variable of interest should be categorical."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid "**Input**"
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid "The categorical variable we are interested in."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid "The variable that contains the count data."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid ""
+"If the data includes a variable representing expected cell counts, enter it "
+"here; its values define the null hypothesis."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid ""
+"Checks if observed counts across categories are uniformly distributed. It "
+"compares observed counts to what we'd expect by chance using a chi-squared "
+"test. A significant difference suggests the categories aren't equally likely."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid ""
+"Checks if observed counts match a specific expected distribution. By "
+"default, it tests for a uniform distribution, but you can set your own "
+"expectations. A significant difference suggests the actual distribution "
+"doesn’t fit the expected one."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid ""
+"Displays the descriptives of the observed and expected counts as well as the "
+"confidence intervals of the observed values."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid ""
+"Coverage of the confidence intervals in percentages. The default value is 95."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid ""
+"An upper bound on how much more likely a p-value is under the alternative "
+"hypothesis than under the null."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid "Displays the descriptives as counts."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid "Displays the descriptives as a proportion."
+msgstr ""
+
+msgctxt "MultinomialTest|"
+msgid ""
+"Plots the frequencies and the confidence intervals of the observed counts."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid ""
+"The Bayesian multinomial test allows the user to test whether an observed "
+"distribution of cell counts corresponds to an expected distribution.\n"
+"## Assumptions\n"
+"- The variable of interest should be categorical."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid "**Input**"
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid "The categorical variable we are interested in."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid "The variable that contains the count data."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid ""
+"If the data includes a variable representing expected cell counts, enter it "
+"here; its values define the null hypothesis."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid ""
+"Checks if observed counts across categories are uniformly distributed (the "
+"null hypothesis). A significant difference suggests the categories aren't "
+"equally likely."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid ""
+"Checks if observed counts match a specific expected distribution (the null "
+"hypothesis). By default, it tests for a uniform distribution, but you can "
+"set your own expectations. A significant difference suggests the actual "
+"distribution doesn’t fit the expected one."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid ""
+"Displays a table containing the categories of interest, the observed values "
+"and the expected values under the specified hypotheses."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid ""
+"Display central credible intervals. A credible interval shows the "
+"probability that the true effect size lies within certain values. The "
+"default credible interval is set at 95%."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid "Displays the descriptives as counts."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid "Displays the descriptives as a proportion."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid ""
+"Displays the frequency of the reported counts and the corresponding credible "
+"intervals for every level of the variable of interest."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid ""
+"A credible interval shows the probability that the true effect size lies "
+"within certain values. The default credible interval is set at 95%."
+msgstr ""
+
+msgctxt "MultinomialTestBayesian|"
+msgid ""
+"Option to adjust the prior distribution for the vector of cell probabilities."
+msgstr ""
+
+msgctxt "RegressionLogLinear|"
+msgid ""
+"Log-linear regression models the logarithm of the dependent variable as a "
+"linear combination of independent variables. It is useful for handling "
+"skewed data and multiplicative relationships."
+msgstr ""
+
+msgctxt "RegressionLogLinear|"
+msgid ""
+"Displays estimates of the regression coefficients along with their standard "
+"errors, Z-values, and associated p-values."
+msgstr ""
+
+msgctxt "RegressionLogLinear|"
+msgid ""
+"Coverage of the confidence intervals in percentages. The default value is 95."
+msgstr ""
+
+msgctxt "RegressionLogLinear|"
+msgid ""
+"An upper bound on how much more likely a p-value is under the alternative "
+"hypothesis than under the null."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Specifies the shape of the prior distribution on the effect size."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Controls how spread out the prior is; larger = more uncertainty."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Shows the top N models ranked by posterior probability."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Only models with posterior probability above this threshold are shown."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Displays estimated regression coefficients for included terms."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Adds a credible interval for each coefficient estimate."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Displays statistics for a specific model index."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Shows credible intervals for the selected submodel's coefficients."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Automatically chooses the number of samples for estimation."
+msgstr ""
+
+msgctxt "RegressionLogLinearBayesian|"
+msgid "Allows you to set the number of posterior samples manually."
+msgstr ""
