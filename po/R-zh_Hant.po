@@ -184,7 +184,7 @@ msgid "Ordinal Gamma"
 msgstr "順序 Gamma"
 
 msgid "95%% Confidence Intervals"
-msgstr "95% 信賴區間"
+msgstr "95%% 信賴區間"
 
 msgid "Gamma"
 msgstr ""
