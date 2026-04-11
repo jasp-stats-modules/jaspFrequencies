@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-04-09 04:09+0000\n"
+"Last-Translator: 陳正昌 <chencc99@gmail.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/jasp/jaspfrequencies-qml/zh_Hant/>\n"
+"Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17-dev\n"
 "X-Language: zh_Hant\n"
 "X-Qt-Contexts: true\n"
 
@@ -63,7 +69,6 @@ msgctxt "Description|"
 msgid "Bayesian Log-Linear Regression"
 msgstr "貝氏對數線性迴歸"
 
-#, fuzzy
 msgctxt "ABTestBayesian|"
 msgid "Successes Group 1"
 msgstr "成功組1"
@@ -80,7 +85,6 @@ msgctxt "ABTestBayesian|"
 msgid "Sample Size Group 2"
 msgstr "組2樣本數"
 
-#, fuzzy
 msgctxt "ABTestBayesian|"
 msgid "Normal Prior on Log Odds Ratio"
 msgstr "對數勝算比之常態先驗機率"
@@ -117,7 +121,6 @@ msgctxt "ABTestBayesian|"
 msgid "Bayes factor robustness check"
 msgstr "貝氏因子穩健性檢查"
 
-#, fuzzy
 msgctxt "ABTestBayesian|"
 msgid "Order"
 msgstr "順序"
@@ -250,7 +253,6 @@ msgctxt "BinomialTestBayesian|"
 msgid "Prior"
 msgstr "先驗"
 
-#, fuzzy
 msgctxt "BinomialTestBayesian|"
 msgid "Beta prior: parameter a"
 msgstr "Beta先驗: 參數a"
@@ -337,15 +339,15 @@ msgstr "對立假設(Fisher's exact檢定)"
 
 msgctxt "ContingencyTables|"
 msgid "Group one ≠ Group two"
-msgstr "組1 ≠ 組2"
+msgstr "組 1 ≠ 組 2"
 
 msgctxt "ContingencyTables|"
 msgid "Group one > Group two"
-msgstr "組1 > 組2"
+msgstr "組 1 > 組 2"
 
 msgctxt "ContingencyTables|"
 msgid "Group one < Group two"
-msgstr "組1 < 組2"
+msgstr "組 1 < 組 2"
 
 msgctxt "ContingencyTables|"
 msgid "Nominal"
@@ -399,7 +401,6 @@ msgctxt "ContingencyTables|"
 msgid "Cochran's and Mantel-Haenszel statistics"
 msgstr "Cochran's and Mantel-Haenszel 統計量"
 
-#, fuzzy
 msgctxt "ContingencyTables|"
 msgid "Test common odds ratio equals"
 msgstr "檢定共同勝率是否為"
@@ -412,7 +413,6 @@ msgctxt "ContingencyTables|"
 msgid "Expected"
 msgstr "期望值"
 
-#, fuzzy
 msgctxt "ContingencyTables|"
 msgid "Hide small counts"
 msgstr "隱藏個數少的細格"
@@ -509,12 +509,10 @@ msgctxt "ContingencyTablesBayesian|"
 msgid "Poisson"
 msgstr "卜瓦松"
 
-#, fuzzy
 msgctxt "ContingencyTablesBayesian|"
 msgid "Joint multinomial"
 msgstr "聯合多項分配的"
 
-#, fuzzy
 msgctxt "ContingencyTablesBayesian|"
 msgid "Indep. multinomial, rows fixed"
 msgstr "獨立多項次分配，固定橫列"
@@ -523,7 +521,6 @@ msgctxt "ContingencyTablesBayesian|"
 msgid "Indep. multinomial, columns fixed"
 msgstr "獨立多項次分配，固定直行"
 
-#, fuzzy
 msgctxt "ContingencyTablesBayesian|"
 msgid "Hypergeometric (2x2 only)"
 msgstr "超幾何分佈的 (限2x2)"
@@ -550,15 +547,15 @@ msgstr "對立假設"
 
 msgctxt "ContingencyTablesBayesian|"
 msgid "Group one ≠ Group two"
-msgstr "組1 ≠ 組2"
+msgstr "組 1 ≠ 組 2"
 
 msgctxt "ContingencyTablesBayesian|"
 msgid "Group one > Group two"
-msgstr "組1 > 組2"
+msgstr "組 1 > 組 2"
 
 msgctxt "ContingencyTablesBayesian|"
 msgid "Group one < Group two"
-msgstr "組1 < 組2"
+msgstr "組 1 < 組 2"
 
 msgctxt "ContingencyTablesBayesian|"
 msgid "Plots"
@@ -632,7 +629,6 @@ msgctxt "MultinomialTest|"
 msgid "Test Values"
 msgstr "檢定值"
 
-#, fuzzy
 msgctxt "MultinomialTest|"
 msgid "Equal proportions (multinomial test)"
 msgstr "相同比率(多項檢驗)"
@@ -865,7 +861,6 @@ msgctxt "RegressionLogLinearBayesian|"
 msgid "No. samples"
 msgstr "樣本數"
 
-#, fuzzy
 msgctxt "ABTestBayesian|"
 msgid "Log Odds Ratio"
 msgstr "對數勝率比"
@@ -890,27 +885,22 @@ msgctxt "ABTestBayesian|"
 msgid "p1"
 msgstr ""
 
-#, fuzzy
 msgctxt "ContingencyTablesBayesian|"
 msgid "Expected"
 msgstr "期望值"
 
-#, fuzzy
 msgctxt "ContingencyTablesBayesian|"
 msgid "Residuals"
 msgstr "殘差"
 
-#, fuzzy
 msgctxt "ContingencyTablesBayesian|"
 msgid "Unstandardized"
 msgstr "未標準化"
 
-#, fuzzy
 msgctxt "ContingencyTablesBayesian|"
 msgid "Pearson"
 msgstr "皮爾森"
 
-#, fuzzy
 msgctxt "ContingencyTablesBayesian|"
 msgid "Standardized"
 msgstr "標準化"
@@ -939,7 +929,6 @@ msgctxt "Description|"
 msgid "Informed Bayesian Multi-Binomial Test"
 msgstr "知情貝氏多項式檢定"
 
-#, fuzzy
 msgctxt "InformedBinomialTestBayesian|"
 msgid "Factor"
 msgstr "因子"
@@ -976,7 +965,6 @@ msgctxt "InformedBinomialTestBayesian|"
 msgid "Plot"
 msgstr "圖"
 
-#, fuzzy
 msgctxt "InformedBinomialTestBayesian|"
 msgid "Display"
 msgstr "顯示"
@@ -985,7 +973,6 @@ msgctxt "InformedBinomialTestBayesian|"
 msgid "Counts"
 msgstr "計數"
 
-#, fuzzy
 msgctxt "InformedBinomialTestBayesian|"
 msgid "Proportions"
 msgstr "比例"
@@ -994,12 +981,10 @@ msgctxt "InformedBinomialTestBayesian|"
 msgid "Posterior plot"
 msgstr "後驗圖"
 
-#, fuzzy
 msgctxt "InformedBinomialTestBayesian|"
 msgid "Credible interval"
 msgstr "可信區間"
 
-#, fuzzy
 msgctxt "InformedBinomialTestBayesian|"
 msgid "No factor specified"
 msgstr "無可設定之因子"
@@ -1040,7 +1025,6 @@ msgid ""
 "restriction syntax"
 msgstr "按下 Ctrl + Enter 以套用。點擊上方藍色按鈕可取得限制語法的說明"
 
-#, fuzzy
 msgctxt "InformedBinomialTestBayesian|"
 msgid "Advanced"
 msgstr "進階的"
@@ -1061,12 +1045,10 @@ msgctxt "InformedBinomialTestBayesian|"
 msgid "Maximum samples (bridgesampling)"
 msgstr "最大樣本數 (橋式抽樣)"
 
-#, fuzzy
 msgctxt "InformedMultinomialTestBayesian|"
 msgid "Factor"
 msgstr "因子"
 
-#, fuzzy
 msgctxt "InformedMultinomialTestBayesian|"
 msgid "Counts"
 msgstr "計次"
@@ -1095,12 +1077,10 @@ msgctxt "InformedMultinomialTestBayesian|"
 msgid "Plot"
 msgstr "圖"
 
-#, fuzzy
 msgctxt "InformedMultinomialTestBayesian|"
 msgid "Display"
 msgstr "顯示"
 
-#, fuzzy
 msgctxt "InformedMultinomialTestBayesian|"
 msgid "Proportions"
 msgstr "比例"
@@ -1109,12 +1089,10 @@ msgctxt "InformedMultinomialTestBayesian|"
 msgid "Posterior plot"
 msgstr "後驗圖"
 
-#, fuzzy
 msgctxt "InformedMultinomialTestBayesian|"
 msgid "Credible interval"
 msgstr "可信區間"
 
-#, fuzzy
 msgctxt "InformedMultinomialTestBayesian|"
 msgid "No factor specified"
 msgstr "無可設定之因子"
@@ -1155,7 +1133,6 @@ msgid ""
 "restriction syntax"
 msgstr "按下 Ctrl + Enter 以套用。點擊上方藍色按鈕可取得限制語法的說明"
 
-#, fuzzy
 msgctxt "InformedMultinomialTestBayesian|"
 msgid "Advanced"
 msgstr "進階的"
@@ -1192,7 +1169,6 @@ msgctxt "InformedBinomialTestBayesian|"
 msgid "Prior Distribution"
 msgstr "先驗分配"
 
-#, fuzzy
 msgctxt "InformedBinomialTestBayesian|"
 msgid "Prior Model Probability"
 msgstr "先驗模型機率"
@@ -1237,7 +1213,6 @@ msgctxt "InformedMultinomialTestBayesian|"
 msgid "Prior Distribution"
 msgstr "先驗分配"
 
-#, fuzzy
 msgctxt "InformedMultinomialTestBayesian|"
 msgid "Prior Model Probability"
 msgstr "先驗模型機率"
@@ -1290,12 +1265,10 @@ msgctxt "ContingencyTablesBayesian|"
 msgid "Show totals"
 msgstr "顯示列/行總計"
 
-#, fuzzy
 msgctxt "BinomialTest|"
 msgid "Counts (optional)"
 msgstr "計數(可選)"
 
-#, fuzzy
 msgctxt "BinomialTestBayesian|"
 msgid "Variables"
 msgstr "變項"
@@ -1709,7 +1682,7 @@ msgstr ""
 
 msgctxt "ContingencyTables|"
 msgid "Shows row-wise percentages."
-msgstr "顯示按行計算的百分比。"
+msgstr "顯示列百分比。"
 
 msgctxt "ContingencyTables|"
 msgid "Shows column-wise percentages."
@@ -1805,7 +1778,7 @@ msgstr "顯示虛無假設下的期望次數。"
 
 msgctxt "ContingencyTablesBayesian|"
 msgid "Shows row-wise percentages."
-msgstr "顯示按行計算的百分比。"
+msgstr "顯示列百分比。"
 
 msgctxt "ContingencyTablesBayesian|"
 msgid "Shows column-wise percentages."
