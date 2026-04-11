@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: JASP 0.9.2\n"
-"POT-Creation-Date: 2026-02-28 04:01\n"
+"POT-Creation-Date: 2026-04-11 04:09\n"
 "PO-Revision-Date: 2026-03-31 02:09+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
@@ -181,6 +181,10 @@ msgstr ""
 msgid "Continuity correction is available only for 2x2 tables."
 msgstr "La corrección de continuidad solo está disponible para tablas 2x2."
 
+#, fuzzy
+msgid "McNemar's test is available only for 2x2 tables."
+msgstr "La corrección de continuidad solo está disponible para tablas 2x2."
+
 msgid "Log Odds Ratio"
 msgstr "Logaritmo de la Razón de Probabilidades"
 
@@ -338,6 +342,10 @@ msgstr ""
 "%s no se pudo calcular - Al menos una fila o columna contiene todos ceros"
 
 msgid "%s continuity correction"
+msgstr "%s corrección de continuidad"
+
+#, fuzzy
+msgid "McNemar's %s continuity correction"
 msgstr "%s corrección de continuidad"
 
 msgid "Likelihood ratio"

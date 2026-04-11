@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspFrequencies 0.11.0\n"
-"POT-Creation-Date: 2026-02-28 04:01\n"
+"POT-Creation-Date: 2026-04-11 04:09\n"
 "PO-Revision-Date: 2025-10-07 21:01+0000\n"
 "Last-Translator: Hamza Yalçin <h.yalcin08@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/jasp/"
@@ -167,6 +167,9 @@ msgstr ""
 msgid "Continuity correction is available only for 2x2 tables."
 msgstr ""
 
+msgid "McNemar's test is available only for 2x2 tables."
+msgstr ""
+
 msgid "Log Odds Ratio"
 msgstr ""
 
@@ -310,6 +313,9 @@ msgid ""
 msgstr ""
 
 msgid "%s continuity correction"
+msgstr ""
+
+msgid "McNemar's %s continuity correction"
 msgstr ""
 
 msgid "Likelihood ratio"

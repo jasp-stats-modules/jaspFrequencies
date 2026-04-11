@@ -2162,3 +2162,21 @@ msgstr ""
 msgctxt "RegressionLogLinearBayesian|"
 msgid "Allows you to set the number of posterior samples manually."
 msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "McNemar's χ² test"
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "Tests equality of two marginal proportions in paired nominal data."
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid "McNemar's χ² continuity correction"
+msgstr ""
+
+msgctxt "ContingencyTables|"
+msgid ""
+"Corrects for error introduced when approximating a discrete distribution "
+"with a continuous one in McNemar's test."
+msgstr ""

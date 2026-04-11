@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspFrequencies 0.96.1\n"
-"POT-Creation-Date: 2026-03-21 04:07\n"
+"POT-Creation-Date: 2026-04-11 04:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -151,6 +151,9 @@ msgstr ""
 msgid "Continuity correction is available only for 2x2 tables."
 msgstr ""
 
+msgid "McNemar's test is available only for 2x2 tables."
+msgstr ""
+
 msgid "Log Odds Ratio"
 msgstr ""
 
@@ -284,6 +287,9 @@ msgid "%s could not be calculated - At least one row or column contains all zero
 msgstr ""
 
 msgid "%s continuity correction"
+msgstr ""
+
+msgid "McNemar's %s continuity correction"
 msgstr ""
 
 msgid "Likelihood ratio"

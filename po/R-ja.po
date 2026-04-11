@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspFrequencies 0.11.0\n"
-"POT-Creation-Date: 2026-02-28 04:01\n"
+"POT-Creation-Date: 2026-04-11 04:09\n"
 "PO-Revision-Date: 2024-07-02 17:09+0000\n"
 "Last-Translator: Daiki Hojo <dhojo.bayes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/jasp/"
@@ -169,6 +169,9 @@ msgstr ""
 msgid "Continuity correction is available only for 2x2 tables."
 msgstr ""
 
+msgid "McNemar's test is available only for 2x2 tables."
+msgstr ""
+
 msgid "Log Odds Ratio"
 msgstr "対数オッズ比"
 
@@ -315,6 +318,10 @@ msgid ""
 msgstr "%s は計算できませんでした - 少なくとも 1 つの行または列が全てゼロです"
 
 msgid "%s continuity correction"
+msgstr "%s 連続性の修正"
+
+#, fuzzy
+msgid "McNemar's %s continuity correction"
 msgstr "%s 連続性の修正"
 
 msgid "Likelihood ratio"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspFrequencies 0.19.2\n"
-"POT-Creation-Date: 2026-02-28 04:01\n"
+"POT-Creation-Date: 2026-04-11 04:09\n"
 "PO-Revision-Date: 2026-01-01 19:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/jasp/"
@@ -177,6 +177,10 @@ msgstr ""
 msgid "Continuity correction is available only for 2x2 tables."
 msgstr "தொடர்ச்சியான திருத்தம் 2x2 அட்டவணைகளுக்கு மட்டுமே கிடைக்கிறது."
 
+#, fuzzy
+msgid "McNemar's test is available only for 2x2 tables."
+msgstr "தொடர்ச்சியான திருத்தம் 2x2 அட்டவணைகளுக்கு மட்டுமே கிடைக்கிறது."
+
 msgid "Log Odds Ratio"
 msgstr "பதிவு முரண்பாடுகள் விகிதம்"
 
@@ -332,6 +336,10 @@ msgstr ""
 "பூச்சியங்களும் உள்ளன"
 
 msgid "%s continuity correction"
+msgstr "%s தொடர்ச்சியான திருத்தம்"
+
+#, fuzzy
+msgid "McNemar's %s continuity correction"
 msgstr "%s தொடர்ச்சியான திருத்தம்"
 
 msgid "Likelihood ratio"

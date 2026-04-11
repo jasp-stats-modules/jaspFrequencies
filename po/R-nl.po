@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.1\n"
 "Report-Msgid-Bugs-To: github.com/jasp-stats/jasp-issues/issues\n"
-"POT-Creation-Date: 2026-02-28 04:01\n"
+"POT-Creation-Date: 2026-04-11 04:09\n"
 "PO-Revision-Date: 2025-05-03 03:35+0000\n"
 "Last-Translator: Koen Derks <koen-derks@hotmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
@@ -178,6 +178,10 @@ msgstr ""
 msgid "Continuity correction is available only for 2x2 tables."
 msgstr "Continuïteitscorrectie is alleen beschikbaar voor 2x2 tabellen."
 
+#, fuzzy
+msgid "McNemar's test is available only for 2x2 tables."
+msgstr "Continuïteitscorrectie is alleen beschikbaar voor 2x2 tabellen."
+
 msgid "Log Odds Ratio"
 msgstr "Log Odds Ratio"
 
@@ -326,6 +330,10 @@ msgstr ""
 "%s kon niet worden berekend - Minstens een rij of kolom bevat slechts nullen"
 
 msgid "%s continuity correction"
+msgstr "%s continuïteits correctie"
+
+#, fuzzy
+msgid "McNemar's %s continuity correction"
 msgstr "%s continuïteits correctie"
 
 msgid "Likelihood ratio"
