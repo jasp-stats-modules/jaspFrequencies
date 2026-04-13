@@ -196,7 +196,10 @@ ABTestBayesianInternal <- function(jaspResults, dataset = NULL, options) {
   names(prior_prob) <- c("H1", "H+", "H-", "H0")
 
   .setSeedJASP(options)
-  ab <- try(abtest::ab_test(data = dataset, prior_par = prior_par, prior_prob = prior_prob,
+  # ab_test expects a named list with y1, n1, y2, n2 (not a data frame)
+  data_list <- list(y1 = dataset[[options$y1]], n1 = dataset[[options$n1]],
+                    y2 = dataset[[options$y2]], n2 = dataset[[options$n2]])
+  ab <- try(abtest::ab_test(data = data_list, prior_par = prior_par, prior_prob = prior_prob,
                             posterior = TRUE, nsamples = options$samples))
 
   jaspResults[["model"]]$object <- ab
@@ -225,23 +228,23 @@ ABTestBayesianInternal <- function(jaspResults, dataset = NULL, options) {
   if (!ready)
     return()
 
-  .abTestBayesianFillDescriptivesTable(abTestBayesianDescriptivesTable, dataset)
+  .abTestBayesianFillDescriptivesTable(abTestBayesianDescriptivesTable, dataset, options)
 
   return()
 }
 
 
-.abTestBayesianFillDescriptivesTable <- function(abTestBayesianDescriptivesTable, dataset) {
+.abTestBayesianFillDescriptivesTable <- function(abTestBayesianDescriptivesTable, dataset, options) {
 
   output.rows <- list()
 
-  num_rows = length(dataset$y1)
-  counts = dataset$y1[num_rows]
-  total = dataset$n1[num_rows]
+  num_rows = nrow(dataset)
+  counts = dataset[[options$y1]][num_rows]
+  total = dataset[[options$n1]][num_rows]
   output.rows[[1]] <- list(group = gettext("Group 1"), counts = counts, total = total, proportion = counts / total)
 
-  counts = dataset$y2[num_rows]
-  total = dataset$n2[num_rows]
+  counts = dataset[[options$y2]][num_rows]
+  total = dataset[[options$n2]][num_rows]
   output.rows[[2]] <- list(group = gettext("Group 2"), counts = counts, total = total, proportion = counts / total)
 
   abTestBayesianDescriptivesTable$addRows(output.rows)
@@ -456,18 +459,17 @@ ABTestBayesianInternal <- function(jaspResults, dataset = NULL, options) {
   p_prior <- p_prior[names(hyp_index2)]
   p_post  <- p_post [names(hyp_index2)]
 
+  # plotPieChart uses coord_polar internally; no additional coord override needed
   priorPieChart <- jaspGraphs::plotPieChart(p_prior, names(p_prior), showAxisText = FALSE) +
     ggplot2::scale_fill_manual(values = col_trans) +
-    ggplot2::ylab("Prior Probabilities") +
-    ggplot2::coord_polar("y", start = pi / 2) +
+    ggplot2::xlab("Prior Probabilities") +
     ggplot2::theme(legend.position = "none",
                    axis.title.x = ggplot2::element_text(size = jaspGraphs::getGraphOption("fontsize") * .75),
                    plot.margin = ggplot2::margin())
 
   posteriorPieChart <- jaspGraphs::plotPieChart(p_post, names(p_post), showAxisText = FALSE) +
     ggplot2::scale_fill_manual(values = col) +
-    ggplot2::ylab("Posterior Probabilities") +
-    ggplot2::coord_polar("y", start = pi / 2) +
+    ggplot2::xlab("Posterior Probabilities") +
     ggplot2::theme(legend.position = "none",
                    axis.title.x = ggplot2::element_text(size = jaspGraphs::getGraphOption("fontsize") * .75),
                    plot.margin = ggplot2::margin())
@@ -875,11 +877,11 @@ plot_robustness_ggplot2 <- function(x,
 
   xBreaks <- if (length(mu) <= 6) mu else jaspGraphs::getPrettyAxisBreaks(mu_range)
   xLimits <- range(xBreaks)
-  xName <- expression(mu[psi])
+  xName <- parse(text = "mu[psi]")
 
   yBreaks <- if (length(sigma) <= 6) sigma else jaspGraphs::getPrettyAxisBreaks(sigma_range)
   yLimits <- range(yBreaks)
-  yName <- expression(sigma[psi])
+  yName <- parse(text = "sigma[psi]")
 
 
   rbf <- range(bf, na.rm = TRUE)
